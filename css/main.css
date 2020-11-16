@@ -1,0 +1,291 @@
+body {
+    background: linear-gradient(270deg, #FFB800 2.74%, rgba(255, 202, 13, 0.71) 100%);
+    font-family: Montserrat;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+/* контейнеры */
+.container {
+    width: 1110px;
+    margin: auto;
+    max-width: 95%;
+}
+
+.container-invoices {
+    width: 1110px;
+    margin: auto;
+    max-width: 95%;
+    margin-top: -200px;
+}
+
+/* конец контейнеров  */
+.header {
+    margin-top: 26px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.nav {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.nav-link {
+    margin-left: 43px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+
+/* Конец хедера */
+
+/* начало секции 1 */
+
+.section-1 {
+    margin-top: 80px;
+    height: 640px;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 136.5%;
+}
+
+.about {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 136.5%;
+}
+
+.btn {
+    margin-top: 39px;
+    background: #244DDE;
+    box-shadow: 0px 8px 18px rgba(58, 102, 255, 0.27);
+    border-radius: 16px;
+    width: 225px;
+    height: 54px;
+    border: none;
+}
+
+.btn-nav {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.img-bg {
+    height: 333px;
+}
+
+/* Конец 1 секции */
+
+/* начало виды структур */
+.invoices {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 58px;
+}
+
+.invoice-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+/* конец виды структур */
+
+
+/* начало секции 2 */
+.section-2 {
+    background-color: #fff;
+    margin-top: -110px;
+    height: 830px;
+
+}
+
+.why-text {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 94px;
+}
+
+.pluses {
+    margin-top: 44px;
+}
+
+.plus {
+    margin-bottom: 11px;
+    display: flex;
+}
+
+.card {
+    width: 360px;
+    height: 268px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-right: 17px;
+    text-align: center;
+}
+
+.img-card {
+    margin-top: 16px;
+}
+
+.card-text {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 14px;
+}
+
+.card-about {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+/* конец 2 секции */
+
+
+/* начало 3 секции */
+.section-3 {
+    height: 630px;
+}
+.info {
+    display: flex;
+    margin-top: 104px;
+}
+
+.main-application {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.strong-text {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.application-text {
+    font-size: 18px;
+    margin-top: 12px;
+    line-height: 22px
+}
+
+.interior {
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 22px;
+}
+
+.interior-text {
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.main-usage {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.usage {
+    display: flex;
+    margin-top: 8px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.usage-text-1 {
+    margin-top: 4px;
+    margin-left: 6px;
+}
+
+.usage-text-2 {
+    margin-left: 6px;
+}
+
+.facade {
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 19px;
+}
+
+.facade-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 5px;
+}
+
+
+
+
+
+/* конец 3 секции */
+
+/* начало 4 секции */
+
+.section-4 {
+    background-color: #fff;
+}
+.main-reson {
+    display: flex;
+    justify-content: space-between;
+}
+.resons {
+    margin-top: 105px;
+}
+.resons-header {
+    margin-bottom: 24px;
+}
+.resons-header-text {
+    font-weight: bold;
+    font-size: 30px;
+}
+.reson-block {
+    display: flex;
+    margin-bottom: 13px;
+}
+.reson-text {
+    font-weight: 500;
+font-size: 18px;
+margin-left: 24px;
+margin-top: 6px;
+}
+.photo-reson {
+    margin-top: 40px;
+}
