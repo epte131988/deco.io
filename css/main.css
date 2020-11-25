@@ -496,7 +496,7 @@ font-size: 25px
 /* начало 8 секции */
 
 .section-8 {
-    background-image: url(/img/bg-8.png);
+    background-image: url(img/bg-8.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 380px;
